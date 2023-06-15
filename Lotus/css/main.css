@@ -1,0 +1,62 @@
+.main__container{
+  padding: 0px 99px 0px 99px;
+  margin: 20px 0px 0px 0px;
+}
+.main__category{
+  font-family: "Open sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 113.91%;
+  letter-spacing: 0.585em;
+  color: #FFFFFF;      
+  margin-top: 33px;    
+  margin-left: -20px;                                
+}
+.main__info-about-website{
+  display: flex;
+  margin-left: -20px;
+}
+.main__info-about-anime{
+  display: flex;
+  flex-direction: column;
+}
+.main__name-anime{
+  width: 670px;
+  font-family: "Open sans";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 113.91%;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+}
+.main__info-anime-characteristics{
+  display: flex;
+  gap: 27px;
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
+.main__anime-year{
+  font-family: "Saira";
+}
+.main__anime-age-rating{
+  font-family: "Saira";
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  font-size: 12px;
+  padding: 0px 9px 0px 11px;
+  height: 19px;
+  line-height: 1.5;
+}
+.main__anime-quality{
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  font-size: 12px;
+  padding: 0px 9px 0px 11px;
+  height: 19px;
+  line-height: 1.5;
+}
