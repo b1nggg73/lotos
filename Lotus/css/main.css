@@ -1,35 +1,35 @@
-.main__container{
+.main__container {
   padding: 0px 99px 0px 99px;
   margin: 20px 0px 0px 0px;
 }
-.main__category{
-  font-family: "Open sans";
+.main__category {
+  font-family: 'Open sans';
   font-weight: 700;
   font-size: 24px;
   line-height: 113.91%;
   letter-spacing: 0.585em;
-  color: #FFFFFF;      
-  margin-top: 33px;    
-  margin-left: -20px;                                
+  color: #ffffff;
+  margin-top: 33px;
+  margin-left: -20px;
 }
-.main__info-about-website{
+.main__info-about-website {
   display: flex;
   margin-left: -20px;
 }
-.main__info-about-anime{
+.main__info-about-anime {
   display: flex;
   flex-direction: column;
 }
-.main__name-anime{
+.main__name-anime {
   width: 670px;
-  font-family: "Open sans";
+  font-family: 'Open sans';
   font-weight: 700;
   font-size: 55px;
   line-height: 113.91%;
   letter-spacing: 0.015em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.main__info-anime-characteristics{
+.main__info-anime-characteristics {
   display: flex;
   gap: 27px;
   font-weight: 700;
@@ -37,26 +37,122 @@
   font-size: 18px;
   line-height: 113.91%;
   letter-spacing: 0.2em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 8px;
 }
-.main__anime-year{
-  font-family: "Saira";
+.main__anime-year {
+  font-family: 'Saira';
 }
-.main__anime-age-rating{
-  font-family: "Saira";
-  border: 1px solid #FFFFFF;
+.main__anime-age-rating {
+  font-family: 'Saira';
+  border: 1px solid #ffffff;
   border-radius: 17px;
   font-size: 12px;
   padding: 0px 9px 0px 11px;
   height: 19px;
   line-height: 1.5;
 }
-.main__anime-quality{
-  border: 1px solid #FFFFFF;
+.main__anime-quality {
+  border: 1px solid #ffffff;
   border-radius: 17px;
   font-size: 12px;
   padding: 0px 9px 0px 11px;
   height: 19px;
   line-height: 1.5;
+}
+.main__new-anime {
+  display: flex;
+  justify-content: space-between;
+}
+.main__sliders {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.main__sliders-noneactive {
+  margin-left: 37px;
+}
+.main__sliders-active rect {
+  fill-opacity: 1;
+}
+.main__sliders-active {
+  width: 85px;
+  height: 4px;
+}
+.main__new-anime-button-interaction img {
+  margin-bottom: 20px;
+}
+.main__anime-info {
+  display: flex;
+  margin-top: 39px;
+  justify-content: space-between;
+}
+.main__popular-anime {
+  margin-top: 41px;
+}
+.main__popular-anime h3 {
+  font-family: 'Open sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.main__watch-new-anime-trailer {
+  width: 448px;
+}
+.main__button-new-anime-trailer {
+  margin-bottom: 46px;
+  text-align: right;
+}
+.main__a-button-new-anime-trailer {
+  font-family: 'Open sans';
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 113.91%;
+  letter-spacing: 0.265em;
+  color: #ffffff;
+  /* border: 1px solid rgba(135, 135, 135, 0.8); надо разобраться */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main__new-anime-description {
+  font-family: 'Open sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 113.91%;
+  color: #ffffff;
+  /* border: 1px solid rgba(135, 135, 135, 0.8); */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main__new-anime-interaction {
+  display: flex;
+  margin-top: 240px;
+}
+.main__new-anime-button-interaction {
+  margin-right: 23px;
+}
+.info-about-anime {
+  margin-right: 0px;
+}
+.main__new-anime-logo-website {
+  margin: 0px 9px;
+}
+.main__new-anime-rating {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 113.91%;
+  color: #ffffff;
+
+  background: rgba(196, 196, 196, 0.44);
+  border-radius: 15px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-left: 25px;
 }
