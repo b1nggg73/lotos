@@ -73,13 +73,16 @@
 .main__sliders-noneactive {
   margin-left: 37px;
   cursor: pointer;
+  transition: all 0.8s ease-in-out;
 }
 .main__sliders-active rect {
   fill-opacity: 1;
+  transition: all 0.8s ease-in-out;
 }
 .main__sliders-active {
   width: 85px;
   height: 4px;
+  transition: all 0.8s ease-in-out;
 }
 .main__new-anime-button-interaction img {
   margin-bottom: 20px;
@@ -137,6 +140,7 @@
 }
 .main__new-anime-button-interaction {
   margin-right: 23px;
+  margin-top: 15px;
 }
 .info-about-anime {
   margin-right: 0px;
@@ -151,11 +155,10 @@
   font-size: 36px;
   line-height: 113.91%;
   color: #ffffff;
-
   background: rgba(196, 196, 196, 0.44);
   border-radius: 15px;
   padding-right: 25px;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 25px;
 }
 .main__all-anime {
@@ -194,6 +197,7 @@
   gap: 35px;
   margin-bottom: 16px;
   margin-left: 20px;
+  cursor: default;
 }
 .main__all-anime-year {
   font-family: 'Saira';
@@ -240,6 +244,7 @@
   font-size: 30px;
   line-height: 113.91%;
   letter-spacing: 0.015em;
+  cursor: default;
   color: #ffffff;
 }
 .main__all-anime-watch {
@@ -250,4 +255,10 @@
 }
 .main__all-anime-block {
   margin-bottom: 50px;
+}
+.main__new-anime-rating {
+  cursor: default;
+}
+.main__info-anime-characteristics {
+  cursor: default;
 }
