@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url('../img/background-image0.jpg');
-  transition: background-image 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 .main {
   flex: 1 0 auto;

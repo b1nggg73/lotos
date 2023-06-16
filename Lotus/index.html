@@ -257,10 +257,32 @@
           <div class="main__anime-info">
             <div class="main__popular-anime">
               <h3>ПОПУЛЯРНОЕ АНИМЕ</h3>
+              <div class="slider">
+                <div class="slider-images">
+                  <img src="img/popular-anime0.svg" />
+                  <img src="img/popular-anime1.svg" />
+                  <img src="img/popular-anime2.svg" />
+                </div>
+                <button class="prev-button">
+                  <div class="background__prev-button">
+                    <img src="img/prev-button.svg" alt="prev-button" />
+                  </div>
+                </button>
+                <button class="next-button">
+                  <div class="background__prev-button">
+                    <img src="img/next-button.svg" alt="next-button" />
+                  </div>
+                </button>
+                <button class="main__popular-anime-play">
+                  <img src="img/button-play.svg" alt="next-button" />
+                </button>
+              </div>
             </div>
             <div class="main__watch-new-anime-trailer">
               <div class="main__button-new-anime-trailer">
-                <a href="#" class="main__a-button-new-anime-trailer">Смотреть трейлер</a>
+                <a href="#" class="main__a-button-new-anime-trailer">
+                  <img src="img/button-play.svg" alt="button-play" height="60px" />Смотреть трейлер
+                </a>
               </div>
               <div class="main__new-anime-description">
                 Фэнтезийный мир наполнен жуткими тварями и разными опасностями, с которыми придётся
@@ -271,48 +293,16 @@
             </div>
             <div class="main__new-anime-interaction">
               <div class="main__new-anime-button-interaction">
-                <svg
-                  width="44"
-                  height="44"
-                  viewBox="0 0 44 44"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="44" height="44" rx="15" fill="#060606" fill-opacity="0.3" />
-                </svg>
+                <img src="img/icon-favorite.svg" alt="icon-favorite" />
               </div>
               <div class="main__new-anime-button-interaction">
-                <svg
-                  width="44"
-                  height="44"
-                  viewBox="0 0 44 44"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="44" height="44" rx="15" fill="#060606" fill-opacity="0.3" />
-                </svg>
+                <img src="img/icon-like.svg" alt="icon-like" />
               </div>
               <div class="main__new-anime-button-interaction">
-                <svg
-                  width="44"
-                  height="44"
-                  viewBox="0 0 44 44"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="44" height="44" rx="15" fill="#060606" fill-opacity="0.3" />
-                </svg>
+                <img src="img/icon-disslike.svg" alt="icon-disslike" />
               </div>
               <div class="main__new-anime-button-interaction info-about-anime">
-                <svg
-                  width="44"
-                  height="44"
-                  viewBox="0 0 44 44"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="44" height="44" rx="15" fill="#060606" fill-opacity="0.3" />
-                </svg>
+                <img class="img-info-about-anime" src="img/icon-info.svg" alt="icon-info" />
               </div>
               <div class="main__new-anime-logo-website">
                 <img src="img/icon-logo.svg" alt="icon-logo" />
@@ -552,5 +542,6 @@
     </div>
     <script src="js/menu-burger.js"></script>
     <script src="js/background-image.js"></script>
+    <script src="js/popular-anime-slider.js"></script>
   </body>
 </html>
