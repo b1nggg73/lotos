@@ -1,5 +1,4 @@
 .main__container {
-  padding: 0px 99px 0px 99px;
   margin: 20px 0px 0px 0px;
 }
 .main__category {
@@ -63,6 +62,7 @@
 .main__new-anime {
   display: flex;
   justify-content: space-between;
+  padding: 0px 99px 0px 99px;
 }
 .main__sliders {
   margin-top: 170px;
@@ -72,6 +72,7 @@
 }
 .main__sliders-noneactive {
   margin-left: 37px;
+  cursor: pointer;
 }
 .main__sliders-active rect {
   fill-opacity: 1;
@@ -87,6 +88,7 @@
   display: flex;
   margin-top: 39px;
   justify-content: space-between;
+  padding: 0px 99px 0px 99px;
 }
 .main__popular-anime {
   margin-top: 41px;
@@ -155,4 +157,97 @@
   padding-right: 25px;
   padding-top: 10px;
   padding-left: 25px;
+}
+.main__all-anime {
+  background-color: #0d1215;
+  margin-top: 80px;
+  padding: 0px 99px 0px 99px;
+  box-shadow: -8px -50px 5px #0d1215;
+  padding-top: 97px;
+}
+.main__anime {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.main__anime h3 {
+  font-family: 'Open sans';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.main__anime-logo-website {
+  text-align: center;
+}
+.main__anime-logo-website img {
+  display: inline-block;
+}
+.main__all-anime-block {
+  display: flex;
+  flex-direction: column;
+}
+.main__all-anime-description {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 16px;
+  margin-left: 20px;
+}
+.main__all-anime-year {
+  font-family: 'Saira';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.main__all-anime-rating {
+  font-family: 'Saira';
+  border: 1px solid #ffffff;
+  border-radius: 17px;
+  font-size: 12px;
+  padding: 0px 9px 0px 11px;
+  height: 19px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main__all-anime-seasons {
+  font-family: 'Open sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.main__all-anime-quality {
+  font-family: 'Saira';
+  border: 1px solid #ffffff;
+  border-radius: 17px;
+  font-size: 12px;
+  padding: 0px 9px 0px 11px;
+  height: 19px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main__all-anime-name {
+  margin-top: 10px;
+  font-family: 'Open sans';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 113.91%;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+}
+.main__all-anime-watch {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  place-items: center;
+}
+.main__all-anime-block {
+  margin-bottom: 50px;
 }
