@@ -296,6 +296,10 @@
   background-color: #0d12154a;
   transition: all 0.5s ease-in-out;
 }
+.main__button-new-anime-trailer a img:active {
+  background-color: #0d12154a;
+  transition: all 0.5s ease-in-out;
+}
 .slider {
   position: relative;
   overflow: hidden;
