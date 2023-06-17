@@ -2,8 +2,23 @@ const sliderImages = document.querySelector('.slider-images');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
 const aPopularAnime = document.querySelector('.main__popular-anime-play-a');
-
+let n = 0;
 let slideIndex = 0;
+
+let intervalSlider = setInterval(sliderAuto, 10000);
+function sliderAuto() {
+  slideIndex = n;
+  if (slideIndex < 0) {
+    slideIndex = 2;
+  } else if (slideIndex > 2) {
+    slideIndex = 0;
+  }
+  sliderImages.style.transform = `translateX(-${slideIndex * 100}%)`;
+  n++;
+  if (n >= 3) {
+    n = 0;
+  }
+}
 
 function showSlide(n) {
   slideIndex = n;
@@ -27,23 +42,13 @@ function showSlide(n) {
 showSlide(slideIndex);
 
 prevButton.addEventListener('click', () => {
+  clearInterval(intervalSlider);
+  intervalSlider = setInterval(sliderAuto, 10000);
   showSlide(slideIndex - 1);
 });
 
 nextButton.addEventListener('click', () => {
+  clearInterval(intervalSlider);
+  intervalSlider = setInterval(sliderAuto, 10000);
   showSlide(slideIndex + 1);
 });
-let n = 0;
-setInterval(() => {
-  slideIndex = n;
-  if (slideIndex < 0) {
-    slideIndex = 2;
-  } else if (slideIndex > 2) {
-    slideIndex = 0;
-  }
-  sliderImages.style.transform = `translateX(-${slideIndex * 100}%)`;
-  n++;
-  if (n >= 3) {
-    n = 0;
-  }
-}, 10000);
