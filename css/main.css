@@ -533,6 +533,7 @@
   text-align: center;
   gap: 15px;
 }
+
 .main__anime h3 {
   font-family: 'Open sans';
   font-weight: 700;
@@ -541,6 +542,19 @@
   letter-spacing: 0.2em;
   color: #ffffff;
   margin-left: 10px;
+}
+.main__anime-continue-watch h3 {
+  font-family: 'Open sans';
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.continue-watch {
+  font-size: 20px;
 }
 .main__continue-watching-anime {
   font-family: 'Open sans';
