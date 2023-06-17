@@ -507,8 +507,14 @@
   background-color: #0d1215;
   margin-top: 80px;
   padding: 0px 99px 0px 99px;
-  box-shadow: 0px -20px 5px 5px #0d1215;
+  box-shadow: 0px -50px 5px 5px #0d1215;
   padding-top: 97px;
+}
+.main__continue-watching-anime {
+  background-color: #0d1215;
+  margin-top: 80px;
+  padding: 0px 99px 0px 99px;
+  box-shadow: 0px -50px 5px 5px #0d1215;
 }
 @media (max-width: 920px) {
   .main__all-anime {
@@ -536,6 +542,19 @@
   color: #ffffff;
   margin-left: 10px;
 }
+.main__continue-watching-anime {
+  font-family: 'Open sans';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 113.91%;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .main__anime-logo-website {
   text-align: center;
 }
@@ -739,6 +758,11 @@
 
 .main__all-anime-watch {
   margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+.main__continue-watching-anime-watch {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
