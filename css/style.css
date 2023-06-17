@@ -1,0 +1,35 @@
+body {
+  background-color: #0d1215;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+}
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url('../img/background-image0.jpg');
+  transition: all 0.8s ease-in-out;
+}
+@media (max-width: 660px) {
+  .wrapper {
+    background-size: 660px;
+  }
+}
+@media (max-width: 605px) {
+  .wrapper {
+    background-size: 100% 370px;
+  }
+}
+@media (max-width: 545px) {
+  .wrapper {
+    background-image: url('');
+  }
+}
+.main {
+  flex: 1 0 auto;
+}
