@@ -7,7 +7,7 @@ const seasonsAnime = document.querySelector('.main__anime-seasons');
 const descriptionAnime = document.querySelector('.main__new-anime-description');
 const ratingNewAnime = document.querySelector('.main__new-anime-rating');
 const hrefAnime = document.querySelector('.main__a-button-new-anime-trailer');
-const time = 1000;
+const time = 10000;
 
 let i = 0;
 function animeChange() {
