@@ -15,6 +15,21 @@ body {
   background-image: url('../img/background-image0.jpg');
   transition: all 0.8s ease-in-out;
 }
+@media (max-width: 660px) {
+  .wrapper {
+    background-size: 660px;
+  }
+}
+@media (max-width: 605px) {
+  .wrapper {
+    background-size: 100% 370px;
+  }
+}
+@media (max-width: 545px) {
+  .wrapper {
+    background-image: url('');
+  }
+}
 .main {
   flex: 1 0 auto;
 }
